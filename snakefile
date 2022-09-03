@@ -190,4 +190,4 @@ rule split:
     "{sample}"
 
   shell:
-    "SplitSeq.py group -s {input} -f CONSCOUNT --num 2 --outname {params}"        
+    "SplitSeq.py group -s {input} -f CONSCOUNT --num 2 --outname {params}"  
